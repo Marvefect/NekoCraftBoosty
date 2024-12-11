@@ -1,0 +1,100 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "ABA",
+        "BDB",
+        "ABA"
+    ],
+    "key": {
+        "A": "amethyst_shard",
+        "B": "book",
+        "D": "diamond"
+    },
+    "category": "misc",
+    "result": {
+        "id": "written_book",
+        "count": 1,
+        "components": {
+            "written_book_content": {
+                "title": "Книга Роста",
+                "author": "Marvefect",
+                "generation": 0,
+                "pages": [
+                    '[
+                        [
+                            {
+                                "text": "Используйте с умом, Книга одноразовая.\n"
+                            },
+                            {
+                                "text": "[0.8]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 1"
+                                }
+                            },
+                            {
+                                "text": "[0.85]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 2"
+                                }
+                            },
+                            {
+                                "text": "[0.9]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 3"
+                                }
+                            },
+                            {
+                                "text": "[0.95]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 4"
+                                }
+                            },
+                            {
+                                "text": "[1.0]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 5"
+                                }
+                            },
+                            {
+                                "text": "[1.05]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 6"
+                                }
+                            },
+                            {
+                                "text": "[1.1]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 7"
+                                }
+                            },
+                            {
+                                "text": "[1.15]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 8"
+                                }
+                            },
+                            {
+                                "text": "[1.2]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.size set 9"
+                                }
+                            }
+                        ]
+                    ]'
+                ]
+            },
+            "custom_data": {
+                "BoosterBook": true
+            }            
+        }
+    }
+}

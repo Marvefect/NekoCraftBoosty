@@ -7,7 +7,7 @@
             "weapon.mainhand": {
                 "components": {
                     "custom_data": {
-                        "BoosterBook": true
+                        "BoosterBook": 1
                     }
                 }
             }

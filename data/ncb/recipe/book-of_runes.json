@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "RBR",
+        "BDB",
+        "RBR"
+    ],
+    "key": {
+        "R": "redstone",
+        "B": "book",
+        "D": "diamond"
+    },
+    "result": {
+        "id": "written_book",
+        "count": 1,
+        "components": {
+            "written_book_content": {
+                "title": "Книга Рун",
+                "author": "NekoCraft",
+                "generation": 0,
+                "pages": [
+                    '[
+                        [
+                            {
+                                "text": "Используйте с умом, Книга одноразовая. \n2+ Уровень: \n"
+                            },
+                            {
+                                "text": "[Тестовая Кнопка]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 1"
+                                }
+                            }
+                        ]
+                    ]'
+                ]
+            }
+        }
+    }
+}

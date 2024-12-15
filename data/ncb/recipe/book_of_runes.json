@@ -29,12 +29,15 @@
                                 "text": "[Тестовая Кнопка]\n",
                                 "clickEvent": {
                                     "action": "run_command",
-                                    "value": "/trigger ncb.rune set 1"
+                                    "value": "/trigger ncb.rune.1 set 1"
                                 }
                             }
                         ]
                     ]'
                 ]
+            },
+            "custom_data": {
+                "BoosterBook": 2
             }
         }
     }

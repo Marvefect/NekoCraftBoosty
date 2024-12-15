@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "player",
+        "slots": {
+            "weapon.mainhand": {
+                "components": {
+                    "custom_data": {
+                        "BoosterBook": 2
+                    }
+                }
+            }
+        }
+    }
+}

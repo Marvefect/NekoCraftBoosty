@@ -7,3 +7,4 @@ scoreboard objectives add ncb.rune.3 trigger
 scoreboard objectives add ncb.values dummy
 scoreboard players set 100 ncb.values 100
 scoreboard players set 1000 ncb.values 1000
+

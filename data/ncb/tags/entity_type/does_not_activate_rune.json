@@ -1,0 +1,19 @@
+{
+    "values": [
+        "armor_stand",
+        "item_frame",
+        "glow_item_frame",
+        "minecart",
+        "#minecraft:boat",
+        "#arrows",
+        "snowball",
+        "lightning_bolt",
+        "item_display",
+        "block_display",
+        "text_display",
+        "ender_pearl",
+        "marker",
+        "item",
+        "experience_orb"
+    ]
+}

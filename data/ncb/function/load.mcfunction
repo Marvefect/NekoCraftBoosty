@@ -8,3 +8,4 @@ scoreboard objectives add ncb.values dummy
 scoreboard players set 100 ncb.values 100
 scoreboard players set 1000 ncb.values 1000
 
+schedule function ncb:runes/check 2t

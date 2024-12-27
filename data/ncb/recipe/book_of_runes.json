@@ -26,10 +26,45 @@
                                 "text": "Используйте с умом, Книга одноразовая. \n2+ Уровень: \n"
                             },
                             {
-                                "text": "[Тестовая Кнопка]\n",
+                                "text": "[СБРОС ЭФФЕКТА]\n",
                                 "clickEvent": {
                                     "action": "run_command",
-                                    "value": "/trigger ncb.rune.1 set 1"
+                                    "value": "/trigger ncb.rune set -1"
+                                }
+                            },
+                            {
+                                "text": "[Сердца]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 1"
+                                }
+                            },
+                            {
+                                "text": "[Листва Вишни]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 2"
+                                }
+                            },
+                            {
+                                "text": "[Дым]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 3"
+                                }
+                            },
+                            {
+                                "text": "[Пламя]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 4"
+                                }
+                            },
+                            {
+                                "text": "[Дождь]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 5"
                                 }
                             }
                         ]

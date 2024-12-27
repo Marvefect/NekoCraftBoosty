@@ -1,0 +1,1 @@
+particle campfire_cosy_smoke ~ ~.2 ~ 0.25 0.25 0.25 0.05 7

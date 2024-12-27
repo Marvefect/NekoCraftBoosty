@@ -1,1 +1,1 @@
-say Executed Effect 1!
+particle heart ~ ~.2 ~ 0.25 0.25 0.25 1 7

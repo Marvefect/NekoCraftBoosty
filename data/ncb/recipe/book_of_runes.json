@@ -23,7 +23,7 @@
                     '[
                         [
                             {
-                                "text": "2+ Уровень: \n"
+                                "text": "Используйте с умом, Книга одноразовая.\n"
                             },
                             {
                                 "text": "[СБРОС ЭФФЕКТА]\n",
@@ -31,6 +31,9 @@
                                     "action": "run_command",
                                     "value": "/trigger ncb.rune set -1"
                                 }
+                            },
+                            {
+                                "text": "2+ Уровень: \n"
                             },
                             {
                                 "text": "[Сердца]\n",
@@ -66,7 +69,51 @@
                                     "action": "run_command",
                                     "value": "/trigger ncb.rune set 5"
                                 }
+                            },
+                            {
+                                "text": "[Чернила]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 6"
+                                }
+                            },
+                            {
+                                "text": "[Снежинки]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 7"
+                                }
+                            },
+                            {
+                                "text": "[Слизь]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 8"
+                                }
+                            },
+                            {
+                                "text": "[Серая Листва]\n",
+                                "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/trigger ncb.rune set 9"
+                                }
                             }
+                        ]
+                    ]',
+                    '[
+                        [
+                            [
+                                {
+                                    "text": "3+ Уровень: \n"
+                                },
+                                {
+                                    "text": "[Ноты]\n",
+                                    "clickEvent": {
+                                        "action": "run_command",
+                                        "value": "/trigger ncb.rune set 10"
+                                    }
+                                }
+                            ]
                         ]
                     ]'
                 ]

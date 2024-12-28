@@ -1,0 +1,1 @@
+particle squid_ink ~ ~.5 ~ 0.25 0.25 0.25 0.05 7

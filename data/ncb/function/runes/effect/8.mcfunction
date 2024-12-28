@@ -1,0 +1,1 @@
+particle item_slime ~ ~.2 ~ 0.25 0.25 0.25 0 7

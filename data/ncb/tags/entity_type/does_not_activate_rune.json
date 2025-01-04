@@ -15,6 +15,13 @@
         "ender_pearl",
         "marker",
         "item",
-        "experience_orb"
+        "experience_orb",
+        "tnt",
+        "fireball",
+        "small_fireball",
+        "dragon_fireball",
+        "fishing_bobber",
+        "llama_spit",
+        "trident"
     ]
 }

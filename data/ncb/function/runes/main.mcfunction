@@ -6,7 +6,6 @@ execute as @a if score @s ncb.rune matches -1.. run scoreboard players reset @s 
 
 # Future support
 scoreboard players reset @a[scores={ncb.subLevel=..1}] ncb.rune.selected
-execute as @e[type=#ncb:does_not_activate_rune] on passengers if entity @s[type=marker] run kill @s
 execute as @e[type=marker,tag=rune_marker] at @s unless entity @a[scores={ncb.rune.selected=1..},distance=..10] run kill @s
 # Summon and Ride Marker Entity
 # To Do: Add intergration with PlayerSit plugin (Nerdy af stuff)

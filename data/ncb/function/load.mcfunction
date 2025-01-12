@@ -6,5 +6,6 @@ scoreboard objectives add ncb.values dummy
 scoreboard objectives add ncb.temp dummy
 scoreboard players set 100 ncb.values 100
 scoreboard players set 1000 ncb.values 1000
+kill @e[type=marker,tag=rune_marker]
 
 schedule function ncb:runes/check 5t

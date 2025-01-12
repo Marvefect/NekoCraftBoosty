@@ -23,6 +23,7 @@
         "fishing_bobber",
         "llama_spit",
         "trident",
-        "falling_block"
+        "falling_block",
+        "area_effect_cloud"
     ]
 }

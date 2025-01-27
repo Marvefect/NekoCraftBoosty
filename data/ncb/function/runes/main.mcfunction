@@ -2,7 +2,8 @@ execute as @a if score @s ncb.rune matches 1..9 if score @s ncb.subLevel matches
 execute as @a if score @s ncb.rune matches 10.. if score @s ncb.subLevel matches 3.. store result score @s ncb.rune.selected run scoreboard players get @s ncb.rune
 execute as @a if score @s ncb.rune matches 1.. run clear @s written_book[custom_data={BoosterBook:2b}] 1
 execute as @a if score @s ncb.rune matches -1 run scoreboard players reset @s ncb.rune.selected
-execute as @a if score @s ncb.rune matches -1.. run scoreboard players reset @s ncb.rune
+execute as @a if score @s ncb.rune matches -1 run scoreboard players reset @s ncb.rune
+execute as @a if score @s ncb.rune matches 1.. run scoreboard players reset @s ncb.rune
 
 # Future support
 scoreboard players reset @a[scores={ncb.subLevel=..1}] ncb.rune.selected
